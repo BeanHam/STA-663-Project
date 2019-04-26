@@ -20,6 +20,6 @@ The results show that K-Meansll does generate solutions that are closer to the g
 
 #### Files
 - Project Report: Analysis and Implementation of K-Means++ With Parallel Initialization
-- Real-world Test Data: spamdata.csv
+- Real-world Test Data: spambase.data.csv
 - Source Code: Algorithms.ipynb
 - Test Code: Algorithm_testing.ipynb
