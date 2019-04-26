@@ -17,3 +17,9 @@ Our project aims to partially replicate the research work of Scalable K-Means++ 
 #### Result
 
 The results show that K-Meansll does generate solutions that are closer to the global optimum, while it runs much slower compared with the other two algorithms. Our conclusion about the time expenditure contradicts with the conclusion arrived at from the original paper. Several conjectures have been proposed in our analysis. 
+
+#### Files
+- Project Report: Analysis and Implementation of K-Means++ With Parallel Initialization
+- Real-world Test Data: spamdata.csv
+- Source Code: Algorithms.ipynb
+- Test Code: Algorithm_testing.ipynb
