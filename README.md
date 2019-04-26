@@ -1,7 +1,7 @@
-# STA-663-Project
 ## Analysis and Implementation of K-Means++ With Parallel Initialization
 #### Bin Han, bin.han@duke.edu | Lingxi Song, lingxi.song@duke.edu
 #### Department of Statistical Science, Duke University, Durham, NC, 27705
+
 
 
 ### Abstract
@@ -10,7 +10,7 @@ k-Means is one of the popular unsupervised clustering algorithms which has been 
 
 ### Goal
 
-Our project aims to partially replicate the research work of Scalable K-Means++ conducted by Bahmani, B. et al. (2012). We analyzed the potential issues of K-Means and K-Means++ clustering algorithms and summarized the mathematical proofs from the original paper about the quality solution that the new algorithm -- K-Meansll can generate. We coded the all three clustering methods from scripts in Python and tested them on one simulated data and one real-world data. 
+Our project aims to partially replicate the research work of Scalable K-Means++ conducted by Bahmani, B. et al. (2012). We analyzed the potential issues of K-Means and K-Means++ clustering algorithms, provided intuition about the design of new algorithm K-Meansll, and summarized the mathematical proofs from the original paper about the quality solution that the new algorithm can generate. We coded the three clustering methods from scripts in Python and tested them on one simulated data and one real-world data. 
 
 ### Result
 
