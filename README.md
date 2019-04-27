@@ -31,9 +31,9 @@ We created three packages: kmeans, kmeanspp, kmeansll. To install them, run the 
 
 - ```pip install git+https://github.com/BeanHam/kmeans.git```
 - ```pip install git+https://github.com/BeanHam/kmeanspp.git```
-- ```pip install git+https://github.com/BeanHam/kmeansll.git```
+- ```pip install git+https://github.com/BeanHam/kmeans_ll.git```
 
 To use the packages, run the following code in your notebook:
 - ```import kmeans```
 - ```import kmeanspp```
-- ```import kmeansll```
+- ```import kmeans_ll```
