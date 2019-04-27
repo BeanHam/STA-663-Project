@@ -9,11 +9,12 @@ Bahmani, B., et al.(2012), Scalable K-Means++. Proceeding of VLDB Endowment, Vol
 ### Files
 - README
 - Licence
-- Project Report: Analysis and Implementation of K-Means++ With Parallel Initialization.pdf
-- Test Data: spambase.data.csv (https://archive.ics.uci.edu/ml/datasets/Spambase)
-- Source Code: Algorithms.ipynb
-- Test Code: Algorithm_testing.ipynb   
- 
+- ```Project Report```: Analysis and Implementation of K-Means++ With Parallel Initialization.pdf
+- ```Test Data```: spambase.data (https://archive.ics.uci.edu/ml/datasets/Spambase)
+- ```Source Code```: Algorithms.ipynb
+- ```Test Code```: Algorithm_testing.ipynb
+- #### In case that the function installation does not work. Run ```Algorithm Test_backup.ipynb```
+
 ### Abstract
 
 k-Means is one of the popular unsupervised clustering algorithms which has been widely used over a half century. However, the major drawback of K-Means is that it does not guarantee globally optimal solution, which is usually the case, due to that fact that the initialization of centroids is critically important but completely at random in the algorithm. Additionally, the number of iterations to calculate distance in pairs grows exponentially when number of data points increments, making K-Means not scalable with large data set. K-Means++, an improved algorithm based on K-Means, modifies the initiation process to provably generate the solution that is close to the globally optimal one. However, similarly, due to the inherent nature of sequential initialization of centers, K-Means++ must look over k data chunks and pick one randomly from each chunk, leading to the result that K-Means++  is not well-capable of handling massive data. Based on the idea of K-Means++, the researchers designed a new way to initialize centers parallelly, which dramatically reduce the number of passes. K-Meansll only requires log(k) passes to assign the centers at the beginning but is able to generate a nearly globally optimal solution.
