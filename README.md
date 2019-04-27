@@ -15,7 +15,7 @@ Bahmani, B., et al.(2012), Scalable K-Means++. Proceeding of VLDB Endowment, Vol
 - ```Test Code```: AlgorithmTest.ipynb
 
 ```diff
-- In case that the function installation does not work, run "AlgorithmTest_backup.ipynb"
+- In case that the function installation failed and "AlgorithmTest.ipynb" does not work, run "AlgorithmTest_Backup.ipynb"
 ```
 
 ### Abstract
