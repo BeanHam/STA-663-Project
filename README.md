@@ -26,12 +26,12 @@ Our project aims to partially replicate the research work of Scalable K-Means++ 
 
 The results show that most of the time, K-Meansll does generate solutions that are closer to the global optimum, while it runs much slower compared with the other two algorithms. Our conclusion about the time expenditure contradicts with the conclusion arrived at from the original paper. Several conjectures have been proposed in our analysis. 
 
-### Package
+### Packages
 We created three packages: kmeans, kmeanspp, kmeansll. To install them, run the following code in your terminal:
 
-- ```pip install https://github.com/BeanHam/kmeans.git```
-- ```pip install https://github.com/BeanHam/kmeanspp.git```
-- ```pip install https://github.com/BeanHam/kmeansll.git```
+- ```pip install git+https://github.com/BeanHam/kmeans.git```
+- ```pip install git+https://github.com/BeanHam/kmeanspp.git```
+- ```pip install git+https://github.com/BeanHam/kmeansll.git```
 
 To use the packages, run the following code in your notebook:
 - ```import kmeans```
