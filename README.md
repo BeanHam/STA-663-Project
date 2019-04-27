@@ -5,8 +5,7 @@
 ### Original Paper:
 Bahmani, B., et al.(2012), Scalable K-Means++. Proceeding of VLDB Endowment, Volume 5, Issue 7,Page 622-633. Retrieved from:
     https://dl.acm.org/citation.cfm?id=2180915
-    
-    
+     
 ### Files
 - README
 - Licence
@@ -25,4 +24,16 @@ Our project aims to partially replicate the research work of Scalable K-Means++ 
 
 ### Result
 
-The results show that K-Meansll does generate solutions that are closer to the global optimum, while it runs much slower compared with the other two algorithms. Our conclusion about the time expenditure contradicts with the conclusion arrived at from the original paper. Several conjectures have been proposed in our analysis. 
+The results show that most of the time, K-Meansll does generate solutions that are closer to the global optimum, while it runs much slower compared with the other two algorithms. Our conclusion about the time expenditure contradicts with the conclusion arrived at from the original paper. Several conjectures have been proposed in our analysis. 
+
+### Package
+We created three packages: kmeans, kmeanspp, kmeansll. To install them, run the following code in your terminal:
+
+- ```pip install https://github.com/BeanHam/kmeans.git```
+- ```pip install https://github.com/BeanHam/kmeanspp.git```
+- ```pip install https://github.com/BeanHam/kmeansll.git```
+
+To use the packages, run the following code in your notebook:
+- ```import kmeans```
+- ```import kmeanspp```
+- ```import kmeansll```
