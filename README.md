@@ -12,8 +12,8 @@ Bahmani, B., et al.(2012), Scalable K-Means++. Proceeding of VLDB Endowment, Vol
 - ```Project Report```: Analysis and Implementation of K-Means++ With Parallel Initialization.pdf
 - ```Test Data```: spambase.data (https://archive.ics.uci.edu/ml/datasets/Spambase)
 - ```Source Code```: Algorithms.ipynb
-- ```Test Code```: Algorithm_testing.ipynb
-- #### In case that the function installation does not work. Run ```Algorithm Test_backup.ipynb```
+- ```Test Code```: AlgorithmTest.ipynb
+- #### In case that the function installation does not work. Run ```AlgorithmTest_backup.ipynb```
 
 ### Abstract
 
